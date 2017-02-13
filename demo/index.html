@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8"/>
+    <meta author="Andreas Fink"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Parallax Scrolling Framework </title>
+    <link rel="stylesheet" href="../dist/parallax.css">
+    <!--
+    <script type="text/javascript" src="../dist/parallax.js"></script>
+    -->
+  </head>
+  <body>
+
+    <div class="parallax">
+      
+      <parallax parallax-speed="0.25">
+        <background>
+          <video poster="vid/demo.jpg" playsinline autoplay muted loop>
+            <source src="vid/demo.ogv" type="video/ogv">
+            <source src="vid/demo.mp4" type="video/mp4">
+          </video>
+        </background>
+        <content>
+          <h1>Video Title</h1>
+        </content>
+      </parallax>
+
+      <parallax parallax-speed="0.5">
+        <background>
+          <img src="img/demo0.jpg" alt="Text">
+        </background>
+        <content>
+          <h1>Landscape</h1>
+        </content>
+      </parallax>
+
+      <parallax parallax-speed="1">
+        <background>
+          <img src="img/demo1.jpg" alt="Text">
+        </background>
+        <content>
+          <h1>Italy</h1>
+        </content>
+      </parallax>
+
+      <parallax parallax-speed="0.15">
+        <background>
+          <img src="img/demo2.jpg" alt="Text">
+        </background>
+        <content>
+          <h1>Summer</h1>
+        </content>
+      </parallax>
+
+    </div>
+      
+  </body>
+</html>
