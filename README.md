@@ -3,7 +3,9 @@
 The framework is really lightweight and customizable. You only have to include the "parallax.css" (found in /dist folder) file inside your HTML document. There is no external Libary required. 
 If you want to use different speed values with the data attribute you have to include "parallax.js" File.
 
-Here you can see a [Demo](https://afinkndreas.github.io/parallax-scrolling-css-only/demo/).
+Here you can see a [Demo (CSS-Only)](https://afinkndreas.github.io/parallax-scrolling-css-only/demo/).
+
+Here you can see a [Demo (with JS)](https://afinkndreas.github.io/parallax-scrolling-css-only/demo/indexWithJS.html).
 
 ##Usage Example
 ```html
