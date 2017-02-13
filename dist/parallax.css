@@ -43,7 +43,7 @@ parallax content > * {
   transform: translateY(-50%);
   text-align: center;
   width: 100%;
-  font-size: 3em;
+  font-size: 6em;
   color: white;
   margin: 0px;
 }
