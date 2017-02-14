@@ -25,6 +25,7 @@ parallax {
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   display: block;
+  overflow:  hidden;
 }
 
 parallax background, parallax content {
