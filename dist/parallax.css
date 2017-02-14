@@ -13,7 +13,6 @@ html, body {
 
 .parallax {
   height: 100vh;
-  overflow-x: hidden;
   overflow-y: auto;
   -webkit-perspective: 300px;
   perspective: 300px;
@@ -22,12 +21,10 @@ html, body {
 parallax {
   position: relative;
   height: 100vh;
-  
   /*
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   */
-
   display: block;
   overflow: hidden;
 }
