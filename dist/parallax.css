@@ -22,10 +22,12 @@ html, body {
 parallax {
   position: relative;
   height: 100vh;
+  
   /*
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   */
+
   display: block;
   overflow: hidden;
 }
