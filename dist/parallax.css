@@ -62,8 +62,8 @@ parallax background {
 }
 
 parallax background > * {
-  min-width: 100%;
-  height: 100%;
+  width: 100%;
+  min-height: 100%;
   object-fit: initial;
   position: relative;
   left: 50%;
