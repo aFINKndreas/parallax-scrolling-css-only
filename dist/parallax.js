@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
 			var maxTrans = globals.obj[i].getBoundingClientRect().height;
 			var speed = getAttr(globals.obj[i],'parallax-speed')*maxTrans;
 			var transZ = speed;
+			
 			//var scale = 1 + (transZ * -1)/globals.pers;
 			globals.obj[i].getElementsByTagName('content')[0].style.transform = "translateZ("+transZ+"px)";				
 		}
